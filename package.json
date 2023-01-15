@@ -1,0 +1,24 @@
+{
+  "name": "grpc-node-gateway",
+  "version": "1.0.0",
+  "description": "This is an Api Gateway using grpc to handle the Area project. The purpose of Area is to build webhooks in multiple services using their API, and also make request(Action) using the services API. \"Area\" means A(ction)-Rea(ction), and it's used to talk about the Actions that have been built, and the combination of Webhook and Action that can create Reactions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Perry-chouteau/grpc-node-gateway.git"
+  },
+  "author": "perry.chouteau@epitech.eu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Perry-chouteau/grpc-node-gateway/issues"
+  },
+  "homepage": "https://github.com/Perry-chouteau/grpc-node-gateway#readme",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.3",
+    "@grpc/proto-loader": "^0.7.4",
+    "chalk": "^4.1.2"
+  }
+}
