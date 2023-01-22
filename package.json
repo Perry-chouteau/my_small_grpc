@@ -4,7 +4,8 @@
   "description": "This is an Api Gateway using grpc to handle the Area project. The purpose of Area is to build webhooks in multiple services using their API, and also make request(Action) using the services API. \"Area\" means A(ction)-Rea(ction), and it's used to talk about the Actions that have been built, and the combination of Webhook and Action that can create Reactions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index_server.js",
+    "cTest": "node index_client.js > 1 & node index_client.js > 2 & node index_client.js > 3 & node index_client.js > 4 & node index_client.js > 5 & node index_client.js > 6 & node index_client.js > 7 & node index_client.js > 8"
   },
   "repository": {
     "type": "git",
